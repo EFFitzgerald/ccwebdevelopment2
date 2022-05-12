@@ -1,0 +1,109 @@
+/* CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Source+Sans+Pro:ital,wght@0,300;1,200&display=swap');
+    *{
+
+        margin: 0px;
+        padding: 0px;
+
+
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            padding-left: 3%;
+            padding-right: 3%;
+            box-sizing: border-box;
+            position:relative; */
+    }
+
+
+    .feature-img{
+        height:65%;
+        max-width: 100%;
+        flex-basis: 40%;
+        width: auto;
+        position:static;
+        left:0px;
+        size: 100px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .content.text {
+            /* display:inline-block;
+            height: 50vh;
+            width: auto;
+            background-position: center;
+            background-size: cover;
+            box-sizing: border-box;
+            position:absolute; */
+            padding-left: 20px;
+               
+            
+            
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+    .navbar li a {
+        display: block;
+        padding: 10px 10px;
+        color: blue;
+        text-decoration: none;
+    }
+    .navbar li a:hover,
+    .navbar li a:active {
+        background-color: antiquewhite;
+        color: burlywood;
+    }
+
+
+
+    .btn {
+        background-color: rgb(63, 63, 231);
+        border: none;
+        color: palevioletred;
+        padding: 20px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        font-size: 24px;
+      }
+
+    .btn:hover {
+        background-color: rgb(30, 31, 30);
+    }
+
+    .container h2 {
+        text-align: left;
+        color: rgb(39, 39, 129);
+        }
+    
+
+    
+.footer {
+  position: sticky;
+  align-content: flex-end;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+  background-color:white;
+  color: white;
+ }
+
+
+    
