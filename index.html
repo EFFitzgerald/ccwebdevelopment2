@@ -1,16 +1,66 @@
-<!DOCTYPE html> 
-<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" 
-content="width=device-width, initial-scale=1.0"> <title>Document</title> 
-</head> 
-<body><h3> Ash Ketchum <br> <img src="data:image/png;base64,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" alt=""</> <html> </h3>
-<h4>Personal Information</h4>
-Date Of Birth: 22nd May (year doesn't matter, he is eternally 10)<br>
-<br>Email: Ash@billsPC.com
-Address: House on the left, Pallet Town, 
-<p>Kanto Championships Orange League Champion Manalo Conference Winner League Finishes Lumiose Conference - Runner-Up Lily of the Valley Conference - Top 4 Silver Conference - Top 8 Ever Grande Conference - Top 8 Vertress Conference - Top 8 Indigo Plateau Conference - 
-Top 16 Personal profile According to Bulbapedia: Ash is a Pokémon Trainer from Pallet Town whose goal is to become a Pokémon Master. His starter Pokémon was a Pikachu that he received from Professor Oak. He is the first ever Champion of the Alola region's Pokémon League. </p>
-    <p><a href="url:https://bulbapedia.bulbagarden.net/wiki/Ash_Ketchum">Bulbapedia</a></p>
-> Other Experience Battle Frontier - Kanto Defeated seven Frontier Brains offered the opportunity to become a Frontier Brain Team Rocket Slayer - Worldwide! It looks like they are blasting off again! 
-Outside interests There are things that don't involve Pokemon????? 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Girl Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <!--Left side for logo-->
+                <div class="left">
+                <img src="Images/GGGfinallogo.png">
+                <button class="btn">Call</button>
+                    <button class="btn">Email</button>
+                </div>
+        <!--Creating social media icons-->
+                <div class="footer">
+        
+                    <img src="Images/facebookicon.png" alt="">
+                    <img src="Images/instagramicon.png" alt="">
+                    <img src="Images/twittericon.png" alt="">
+                    <img src="Images/linkedinicon.png" alt="">
+                    </div>
+
+                <!--Middle for Navigation Bar-->
+                <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"class ="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Weekly Challenge</a></li>
+            </ul>
+                </div>
+
+                <div>
+                <img src="Images/gymphoto.jpg" 
+                class="feature-img">
+                
+                <!--Right side for Buttons-->
+                
+                        
+                    </div>  
+    
+                
+            </header> 
+        
+               <div class="content text">
+               <br> <h2>Be part of a community of women who are about building <br>
+                 strength, fitness and vitality</h2> <br>
+                  <h2>We are your local women's only gym </h2><br>
+                  <word-break:break-all>
+                   <h4>We welcome any woman might like </h4>
+                    -more movement in their life <br> 
+                    -more time surrounded by determined women <br>
+                    -a place to release all of life's stressors and worries <br>
+                    -to take part in our weekly challenges <br>
+                    -interested in the social aspect (we have monthly socials!) <br>
+                  </p> </word-break:break-all> </div>
+
+                </div>
 </body>
- </html>
+</html>
